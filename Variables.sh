@@ -2,7 +2,7 @@
 
 BIRTHDATE="Jan 1, 2000"
 Presents=10
-BIRTHDAY=$(date -d "$BIRTHDATE" +%A)
+BIRTHDAY=`date -d "$BIRTHDATE" +%A`
 
 #Testing Code
 
@@ -17,7 +17,7 @@ else
 	echo "Presents is incorrect - please retry"
 fi
 if [ "$BIRTHDAY" == "Saturday" ] ; then
-	echo "I was born on a $Birthday"
+	echo "I was born on a $BIRTHDAY"
 else
 	echo "BIRTHDAY is incorrect - please retry"
 fi

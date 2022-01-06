@@ -2,5 +2,8 @@
 
 date1="Jan 1, 2000"
 
-echo $"(date -d "$date1" +%A)"
+converted_date=(date -d "$date1" +%A)
+
+echo converted_date
+
 

@@ -12,12 +12,3 @@ for n in ${NUMBERS[@]} ; do
 done
 
 
-<<yes
-if [ $NUMBERS != 237 ] ; then
-	for n in ${NUMBERS[@]} ; do
-		echo "$n"
-	done
-else
-	break
-fi
-yes

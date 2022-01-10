@@ -14,5 +14,3 @@ for n in [a] && y in [b] ; do
 	fi 
 done
 
-
-	

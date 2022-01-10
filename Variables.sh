@@ -22,4 +22,3 @@ else
 	echo "BIRTHDAY is incorrect - please retry"
 fi
 
-

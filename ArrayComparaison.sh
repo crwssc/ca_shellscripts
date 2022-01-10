@@ -6,11 +6,12 @@ c=(14 7 5 7)
 
 #Comparons a et b, on veut l'élément commun de ces 2 tableaux
 
-for n in [a] && y in [b] ; do
-	if [ n == ${#b[y]} ; then
-		z = a
+for n in [a] and for y in [b] ; do
+	if [ $n = ${#b[y]} ] ; then
+		z = $n
 	else
 		echo "These three arrays don't have common elements"
 	fi 
 done
 
+echo $z
